@@ -1,21 +1,9 @@
 {
-  "name": "bus",
+  "name": "component-bus",
   "description": "Application-wide event bus",
   "version": "0.0.2",
   "dependencies": {
-    "emitter-component": "*"
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
   },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
-  },
-  "component": {
-    "scripts": {
-      "bus": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/bus.git"
-  }
+  "license": "MIT"
 }
